@@ -10,7 +10,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/shinjukugyoen',
         imageUrl: 'https://images.unsplash.com/photo-1584832502622-c824c6e94993?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'romantic'],
-        address: '東京都新宿区内藤町11'
+        address: '東京都新宿区内藤町11',
+        hpLink: 'https://fng.or.jp/shinjuku/'
     },
     // ... (I'm truncating the RE-writing of existing spots for the prompt, but I will output the FULL file content in the tool call)
     // Actually, I must disable this truncation for the tool call. I will paste the full previous content plus new ones.
@@ -23,7 +24,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/shibuyasky',
         imageUrl: 'https://images.unsplash.com/photo-1583087268593-3b2d16964344?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'romantic'],
-        address: '東京都渋谷区渋谷2-24-12'
+        address: '東京都渋谷区渋谷2-24-12',
+        hpLink: 'https://www.shibuya-scramble-square.com/sky/'
     },
     {
         id: '3002', name: 'MIYASHITA PARK', area: '23ku', genre: 'shopping', budget: 'mid', weather: 'sunny',
@@ -31,7 +33,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/miyashita',
         imageUrl: 'https://images.unsplash.com/photo-1597371946892-75ca4621c176?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '東京都渋谷区神宮前6-20-10'
+        address: '東京都渋谷区神宮前6-20-10',
+        hpLink: 'https://www.miyashita-park.tokyo/'
     },
     {
         id: '3003', name: '竹下通り', area: '23ku', genre: 'shopping', budget: 'low', weather: 'rainy_ok',
@@ -39,7 +42,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/takeshita',
         imageUrl: 'https://images.unsplash.com/photo-1536768138541-6e3e5bc3511c?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'cultural'],
-        address: '東京都渋谷区神宮前1'
+        address: '東京都渋谷区神宮前1',
+        hpLink: 'https://www.takeshita-street.com/'
     },
     {
         id: '3004', name: '表参道ヒルズ', area: '23ku', genre: 'shopping', budget: 'high', weather: 'rainy_ok',
@@ -47,7 +51,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/omotesando',
         imageUrl: 'https://images.unsplash.com/photo-1588636235882-fdf5df7560a0?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic'],
-        address: '東京都渋谷区神宮前4-12-10'
+        address: '東京都渋谷区神宮前4-12-10',
+        hpLink: 'https://www.omotesandohills.com/'
     },
     {
         id: '3005', name: '浅草寺', area: '23ku', genre: 'cultural', budget: 'free', weather: 'sunny',
@@ -55,7 +60,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/sensoji',
         imageUrl: 'https://images.unsplash.com/photo-1624026676760-5368a5c37862?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'exciting'],
-        address: '東京都台東区浅草2-3-1'
+        address: '東京都台東区浅草2-3-1',
+        hpLink: 'https://www.senso-ji.jp/'
     },
     {
         id: '3006', name: '花やしき', area: '23ku', genre: 'activity', budget: 'mid', weather: 'sunny',
@@ -63,7 +69,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/hanayashiki',
         imageUrl: 'https://images.unsplash.com/photo-1582885934661-0af36e1c261e?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family'],
-        address: '東京都台東区浅草2-28-1'
+        address: '東京都台東区浅草2-28-1',
+        hpLink: 'https://www.hanayashiki.net/'
     },
     {
         id: '3007', name: '東京駅 丸の内駅舎', area: '23ku', genre: 'cultural', budget: 'free', weather: 'rainy_ok',
@@ -71,7 +78,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/tokyostation',
         imageUrl: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'cultural'],
-        address: '東京都千代田区丸の内1'
+        address: '東京都千代田区丸の内1',
+        hpLink: 'https://www.tokyostationcity.com/'
     },
     {
         id: '3008', name: '皇居東御苑', area: '23ku', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -79,7 +87,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/eastgarden',
         imageUrl: 'https://images.unsplash.com/photo-1536423985552-3eb4f6c4df60?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'cultural'],
-        address: '東京都千代田区千代田1-1'
+        address: '東京都千代田区千代田1-1',
+        hpLink: 'https://www.kunaicho.go.jp/event/higashigyoen/higashigyoen.html'
     },
     {
         id: '3009', name: '秋葉原電気街', area: '23ku', genre: 'shopping', budget: 'low', weather: 'rainy_ok',
@@ -95,7 +104,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ginzasix',
         imageUrl: 'https://images.unsplash.com/photo-1588825852503-4f1073df267e?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic'],
-        address: '東京都中央区銀座6-10-1'
+        address: '東京都中央区銀座6-10-1',
+        hpLink: 'https://ginza6.tokyo/'
     },
     {
         id: '3011', name: '歌舞伎座', area: '23ku', genre: 'cultural', budget: 'high', weather: 'rainy_ok',
@@ -103,7 +113,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/kabukiza',
         imageUrl: 'https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural'],
-        address: '東京都中央区銀座4-12-15'
+        address: '東京都中央区銀座4-12-15',
+        hpLink: 'https://www.kabuki-za.co.jp/'
     },
     {
         id: '3012', name: '築地場外市場', area: '23ku', genre: 'gourmet', budget: 'mid', weather: 'sunny',
@@ -111,7 +122,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/tsukiji',
         imageUrl: 'https://images.unsplash.com/photo-1583248369069-9d91f1640fe6?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '東京都中央区築地4'
+        address: '東京都中央区築地4',
+        hpLink: 'https://www.tsukiji.or.jp/'
     },
     {
         id: '3013', name: '月島もんじゃストリート', area: '23ku', genre: 'gourmet', budget: 'mid', weather: 'rainy_ok',
@@ -127,7 +139,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/bigsight',
         imageUrl: 'https://images.unsplash.com/photo-1596522354195-e8451731cc93?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'cultural'],
-        address: '東京都江東区有明3-11-1'
+        address: '東京都江東区有明3-11-1',
+        hpLink: 'https://www.bigsight.jp/'
     },
     {
         id: '3015', name: '豊洲市場', area: '23ku', genre: 'gourmet', budget: 'mid', weather: 'rainy_ok',
@@ -143,7 +156,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/harrypotter',
         imageUrl: 'https://images.unsplash.com/photo-1626549242784-984483759c9d?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family'],
-        address: '東京都練馬区春日町1-1-7'
+        address: '東京都練馬区春日町1-1-7',
+        hpLink: 'https://www.wbstudiotour.jp/'
     },
     {
         id: '3017', name: '光が丘公園', area: '23ku', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -183,7 +197,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/hanten',
         imageUrl: 'https://images.unsplash.com/photo-1481018085669-2bc6e6f00397?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'exciting'],
-        address: '東京都三鷹市大沢2-2-8'
+        address: '東京都三鷹市大沢2-2-8',
+        hpLink: 'https://www.rdloftsmitaka.com/'
     },
     {
         id: '3022', name: '深大寺天然温泉 湯守の里', area: 'tama', genre: 'onsen', budget: 'mid', weather: 'rainy_ok',
@@ -191,7 +206,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/yumori',
         imageUrl: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800', // reused laqua
         vibes: ['relax'],
-        address: '東京都調布市深大寺元町2-12-2'
+        address: '東京都調布市深大寺元町2-12-2',
+        hpLink: 'https://www.yumorinosato.com/'
     },
     {
         id: '3023', name: '調布市仙川', area: 'tama', genre: 'shopping', budget: 'low', weather: 'sunny',
@@ -207,7 +223,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/fuchu',
         imageUrl: 'https://images.unsplash.com/photo-1463321556093-6af950435150?auto=format&fit=crop&q=80&w=800', // reused mogusaen
         vibes: ['relax', 'family'],
-        address: '東京都府中市南町6-32'
+        address: '東京都府中市南町6-32',
+        hpLink: 'http://www.fuchu-cpf.or.jp/museum/'
     },
     {
         id: '3025', name: '大國魂神社', area: 'tama', genre: 'cultural', budget: 'free', weather: 'sunny',
@@ -215,7 +232,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/okunitama',
         imageUrl: 'https://images.unsplash.com/photo-1601046643768-45e07663b652?auto=format&fit=crop&q=80&w=800', // reused hikawa
         vibes: ['cultural', 'relax'],
-        address: '東京都府中市宮町3-1'
+        address: '東京都府中市宮町3-1',
+        hpLink: 'https://www.ookunitamajinja.or.jp/'
     },
     {
         id: '3026', name: 'サントリー武蔵野ビール工場', area: 'tama', genre: 'activity', budget: 'free', weather: 'rainy_ok',
@@ -223,7 +241,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/suntory',
         imageUrl: 'https://images.unsplash.com/photo-1567696911980-2eee699403be?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'cultural'],
-        address: '東京都府中市矢崎町3-1'
+        address: '東京都府中市矢崎町3-1',
+        hpLink: 'https://www.suntory.co.jp/factory/musashino/'
     },
     {
         id: '3027', name: '国営昭和記念公園 まんパク（※イベント時）', area: 'tama', genre: 'gourmet', budget: 'mid', weather: 'sunny',
@@ -231,7 +250,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/showakinen',
         imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '東京都立川市緑町3173'
+        address: '東京都立川市緑町3173',
+        hpLink: 'https://www.showakinen-koen.jp/'
     },
     {
         id: '3028', name: '高尾599ミュージアム', area: 'tama', genre: 'art', budget: 'free', weather: 'rainy_ok',
@@ -239,7 +259,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/takao599',
         imageUrl: 'https://images.unsplash.com/photo-1491795328994-3a521ce62c1e?auto=format&fit=crop&q=80&w=800', // reused meguro
         vibes: ['relax', 'cultural'],
-        address: '東京都八王子市高尾町2435-3'
+        address: '東京都八王子市高尾町2435-3',
+        hpLink: 'http://www.takao599museum.jp/'
     },
     {
         id: '3029', name: '奥多摩湖', area: 'tama', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -263,7 +284,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/uenozoo',
         imageUrl: 'https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'relax'],
-        address: '東京都台東区上野公園9-83'
+        address: '東京都台東区上野公園9-83',
+        hpLink: 'https://www.tokyo-zoo.net/zoo/ueno/'
     },
     {
         id: '3032', name: '国立科学博物館', area: '23ku', genre: 'cultural', budget: 'low', weather: 'rainy_ok',
@@ -351,7 +373,8 @@ export const tokyoSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ghibli',
         imageUrl: 'https://images.unsplash.com/photo-1527299042578-8386345ec485?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'family'],
-        address: '東京都三鷹市下連雀1-1-83'
+        address: '東京都三鷹市下連雀1-1-83',
+        hpLink: 'https://www.ghibli-museum.jp/'
     },
     {
         id: '3043', name: '深大寺', area: 'tama', genre: 'cultural', budget: 'free', weather: 'sunny',

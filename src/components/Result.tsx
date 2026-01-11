@@ -61,6 +61,17 @@ export const Result = ({ spot, onReroll, onHome }: ResultProps) => {
                     >
                         📍 Google Mapsで見る
                     </a>
+                    {spot.hpLink && (
+                        <a
+                            href={spot.hpLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.mapLink}
+                            style={{ marginTop: '0.5rem', background: '#f0f9ff', color: '#0369a1' }}
+                        >
+                            🌐 公式サイトを見る
+                        </a>
+                    )}
                 </div>
             </div>
 

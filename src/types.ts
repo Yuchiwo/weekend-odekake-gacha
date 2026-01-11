@@ -17,6 +17,7 @@ export interface Spot {
     priority?: number;
     vibes?: Mood[];
     address?: string; // New field for display
+    hpLink?: string; // Official website URL
 }
 
 export interface FilterState {

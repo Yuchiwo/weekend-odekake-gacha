@@ -8,7 +8,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ikspiari',
         imageUrl: 'https://images.unsplash.com/photo-1598971861713-54ad34241724?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'family'],
-        address: '千葉県浦安市舞浜1-4'
+        address: '千葉県浦安市舞浜1-4',
+        hpLink: 'https://www.ikspiari.com/'
     },
     {
         id: '76', name: '鴨川シーワールド', area: 'chiba', genre: 'activity', budget: 'high', weather: 'sunny',
@@ -16,7 +17,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/kamosea',
         imageUrl: 'https://images.unsplash.com/photo-1568254422998-348df8044739?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family'],
-        address: '千葉県鴨川市東町1464-18'
+        address: '千葉県鴨川市東町1464-18',
+        hpLink: 'https://www.kamogawa-seaworld.jp/'
     },
     {
         id: '80', name: 'マザー牧場', area: 'chiba', genre: 'nature', budget: 'mid', weather: 'sunny',
@@ -24,7 +26,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/motherfarm',
         imageUrl: 'https://images.unsplash.com/photo-1506665531195-3566afe2b458?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'family'],
-        address: '千葉県富津市田倉940-3'
+        address: '千葉県富津市田倉940-3',
+        hpLink: 'https://www.motherfarm.co.jp/'
     },
     {
         id: '81', name: 'IKEA Tokyo-Bay', area: 'chiba', genre: 'shopping', budget: 'low', weather: 'rainy_ok',
@@ -32,7 +35,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ikea',
         imageUrl: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '千葉県船橋市浜町2-3-30'
+        address: '千葉県船橋市浜町2-3-30',
+        hpLink: 'https://www.ikea.com/jp/ja/stores/tokyo-bay/'
     },
     // --- New Spots (IDs 1000+) ---
     {
@@ -41,7 +45,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/disneyland',
         imageUrl: 'https://images.unsplash.com/photo-1545580227-d7d8c3686884?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family', 'romantic'],
-        address: '千葉県浦安市舞浜1-1'
+        address: '千葉県浦安市舞浜1-1',
+        hpLink: 'https://www.tokyodisneyresort.jp/tdl/'
     },
     {
         id: '1002', name: '東京ディズニーシー', area: 'chiba', genre: 'activity', budget: 'high', weather: 'sunny',
@@ -57,7 +62,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/naritasan',
         imageUrl: 'https://images.unsplash.com/photo-1605624329623-a60d62c4c8d1?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'relax'],
-        address: '千葉県成田市成田1'
+        address: '千葉県成田市成田1',
+        hpLink: 'https://www.naritasan.or.jp/'
     },
     {
         id: '1004', name: '鋸山（地獄のぞき）', area: 'chiba', genre: 'nature', budget: 'low', weather: 'sunny',
@@ -65,7 +71,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/nokogiriyama',
         imageUrl: 'https://images.unsplash.com/photo-1616766782346-64157cb6256f?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '千葉県富津市金谷'
+        address: '千葉県富津市金谷',
+        hpLink: 'http://www.mt-nokogiri.co.jp/'
     },
     {
         id: '1005', name: '三井アウトレットパーク 木更津', area: 'chiba', genre: 'shopping', budget: 'mid', weather: 'sunny',
@@ -73,7 +80,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/kisarazu-outlet',
         imageUrl: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '千葉県木更津市金田東3-1-1'
+        address: '千葉県木更津市金田東3-1-1',
+        hpLink: 'https://mitsui-shopping-park.com/mop/kisarazu/'
     },
     {
         id: '1006', name: '海ほたるPA', area: 'chiba', genre: 'gourmet', budget: 'low', weather: 'sunny',
@@ -81,7 +89,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/umihotaru',
         imageUrl: 'https://images.unsplash.com/photo-1548685913-c23f27622c36?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'relax'],
-        address: '千葉県木更津市中島地先海ほたる'
+        address: '千葉県木更津市中島地先海ほたる',
+        hpLink: 'https://www.umihotaru.com/'
     },
     {
         id: '1007', name: 'ふなばしアンデルセン公園', area: 'chiba', genre: 'nature', budget: 'low', weather: 'sunny',
@@ -89,7 +98,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/andersen',
         imageUrl: 'https://images.unsplash.com/photo-1558521077-p45m0z5i23?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'relax'],
-        address: '千葉県船橋市金堀町525'
+        address: '千葉県船橋市金堀町525',
+        hpLink: 'https://www.park-funabashi.or.jp/and/'
     },
     {
         id: '1008', name: '幕張メッセ', area: 'chiba', genre: 'activity', budget: 'mid', weather: 'rainy_ok',
@@ -97,7 +107,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/makuhari',
         imageUrl: 'https://images.unsplash.com/photo-1533054363946-4cb78848d6db?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '千葉県千葉市美浜区中瀬2-1'
+        address: '千葉県千葉市美浜区中瀬2-1',
+        hpLink: 'https://www.m-messe.co.jp/'
     },
     {
         id: '1009', name: '養老渓谷', area: 'chiba', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -129,7 +140,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/katorijingu',
         imageUrl: 'https://images.unsplash.com/photo-1601997380295-8a2720d2d225?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'relax'],
-        address: '千葉県香取市香取1697-1'
+        address: '千葉県香取市香取1697-1',
+        hpLink: 'https://katori-jingu.or.jp/'
     },
     {
         id: '1013', name: '佐原の町並み', area: 'chiba', genre: 'cultural', budget: 'free', weather: 'sunny',
@@ -145,7 +157,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/shisui',
         imageUrl: 'https://images.unsplash.com/photo-1519567241046-7f570eee3d9f?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '千葉県印旛郡酒々井町飯積2-4-1'
+        address: '千葉県印旛郡酒々井町飯積2-4-1',
+        hpLink: 'https://www.premiumoutlets.co.jp/shisui/'
     },
     {
         id: '1015', name: '濃溝の滝 (亀岩の洞窟)', area: 'chiba', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -161,7 +174,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/chibaport',
         imageUrl: 'https://images.unsplash.com/photo-1549646536-1507f0f29c40?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'relax'],
-        address: '千葉県千葉市中央区中央港1'
+        address: '千葉県千葉市中央区中央港1',
+        hpLink: 'https://chiba-porttower.com/'
     },
     {
         id: '1017', name: 'ホキ美術館', area: 'chiba', genre: 'art', budget: 'mid', weather: 'rainy_ok',
@@ -169,7 +183,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/hoki',
         imageUrl: 'https://images.unsplash.com/photo-1545952132-70b0407a6f20?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'relax'],
-        address: '千葉県千葉市緑区あすみが丘東3-15'
+        address: '千葉県千葉市緑区あすみが丘東3-15',
+        hpLink: 'https://www.hoki-museum.jp/'
     },
     {
         id: '1018', name: 'DIC川村記念美術館', area: 'chiba', genre: 'art', budget: 'mid', weather: 'rainy_ok',
@@ -177,7 +192,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/kawamura',
         imageUrl: 'https://images.unsplash.com/photo-1498955472675-532cba996b30?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'relax'],
-        address: '千葉県佐倉市坂戸631'
+        address: '千葉県佐倉市坂戸631',
+        hpLink: 'https://kawamura-museum.dic.co.jp/'
     },
     {
         id: '1019', name: '房総のむら', area: 'chiba', genre: 'cultural', budget: 'low', weather: 'sunny',
@@ -227,7 +243,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/yumebokujo',
         imageUrl: 'https://images.unsplash.com/photo-1506665531195-3566afe2b458?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'relax'],
-        address: '千葉県成田市名木730-3'
+        address: '千葉県成田市名木730-3',
+        hpLink: 'https://www.yumebokujo.com/'
     },
     {
         id: '1025', name: '銚子電鉄（犬吠駅）', area: 'chiba', genre: 'activity', budget: 'low', weather: 'rainy_ok',
@@ -235,7 +252,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/choshi',
         imageUrl: 'https://images.unsplash.com/photo-1534057376663-3d8d6725838d?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'cultural'],
-        address: '千葉県銚子市犬吠埼'
+        address: '千葉県銚子市犬吠埼',
+        hpLink: 'https://www.choshi-dentetsu.jp/'
     },
     {
         id: '1026', name: '屏風ヶ浦', area: 'chiba', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -251,7 +269,8 @@ export const chibaSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/keiseirose',
         imageUrl: 'https://images.unsplash.com/photo-1596162391850-25805562095f?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'relax'],
-        address: '千葉県八千代市大和田新田755'
+        address: '千葉県八千代市大和田新田755',
+        hpLink: 'https://www.keiseirose.co.jp/garden/'
     },
     {
         id: '1028', name: 'イオンモール幕張新都心', area: 'chiba', genre: 'shopping', budget: 'mid', weather: 'rainy_ok',

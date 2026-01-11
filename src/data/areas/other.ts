@@ -8,7 +8,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/hitachi',
         imageUrl: 'https://images.unsplash.com/photo-1490750967868-69c2201ea998?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'relax'],
-        address: '茨城県ひたちなか市馬渡605-4'
+        address: '茨城県ひたちなか市馬渡605-4',
+        hpLink: 'https://hitachikaihin.jp/'
     },
     // --- New Spots (Ibaraki) ---
     {
@@ -17,7 +18,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/kairakuen',
         imageUrl: 'https://images.unsplash.com/photo-1551608282-5369677e5c6a?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'cultural'],
-        address: '茨城県水戸市常磐町1-3-3'
+        address: '茨城県水戸市常磐町1-3-3',
+        hpLink: 'https://ibaraki-kairakuen.jp/'
     },
     {
         id: '5002', name: '牛久大仏', area: 'other', genre: 'cultural', budget: 'low', weather: 'sunny',
@@ -25,7 +27,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ushikudaibutsu',
         imageUrl: 'https://images.unsplash.com/photo-1605335198032-4d6423377754?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'cultural'],
-        address: '茨城県牛久市久野町2083'
+        address: '茨城県牛久市久野町2083',
+        hpLink: 'https://daibutu.net/'
     },
     {
         id: '5003', name: '大洗磯前神社', area: 'other', genre: 'cultural', budget: 'free', weather: 'sunny',
@@ -33,7 +36,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/oarai',
         imageUrl: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'cultural'],
-        address: '茨城県東茨城郡大洗町磯浜町6890'
+        address: '茨城県東茨城郡大洗町磯浜町6890',
+        hpLink: 'https://oarai-isosakijinja.or.jp/'
     },
     {
         id: '5004', name: 'JAXA筑波宇宙センター', area: 'other', genre: 'cultural', budget: 'free', weather: 'rainy_ok',
@@ -41,7 +45,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/jaxa',
         imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family'],
-        address: '茨城県つくば市千現2-1-1'
+        address: '茨城県つくば市千現2-1-1',
+        hpLink: 'https://fanfun.jaxa.jp/visit/tsukuba/'
     },
     {
         id: '5005', name: '袋田の滝', area: 'other', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -57,7 +62,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/oaraiaqua',
         imageUrl: 'https://images.unsplash.com/photo-1568254422998-348df8044739?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'relax'],
-        address: '茨城県東茨城郡大洗町磯浜町8252-3'
+        address: '茨城県東茨城郡大洗町磯浜町8252-3',
+        hpLink: 'https://www.aquaworld-oarai.com/'
     },
     // --- New Spots (Tochigi) ---
     {
@@ -66,7 +72,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/nikko',
         imageUrl: 'https://images.unsplash.com/photo-1576487238128-d82054c7604d?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'exciting'],
-        address: '栃木県日光市山内2301'
+        address: '栃木県日光市山内2301',
+        hpLink: 'https://www.toshogu.jp/'
     },
     {
         id: '5008', name: 'あしかがフラワーパーク', area: 'other', genre: 'nature', budget: 'mid', weather: 'sunny',
@@ -74,7 +81,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ashikaga',
         imageUrl: 'https://images.unsplash.com/photo-1588652431872-466d3a95c474?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'relax'],
-        address: '栃木県足利市迫間町607'
+        address: '栃木県足利市迫間町607',
+        hpLink: 'https://www.ashikaga.co.jp/'
     },
     {
         id: '5009', name: '東武ワールドスクウェア', area: 'other', genre: 'activity', budget: 'mid', weather: 'sunny',
@@ -82,7 +90,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/tobuworld',
         imageUrl: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'cultural'],
-        address: '栃木県日光市鬼怒川温泉大原209-1'
+        address: '栃木県日光市鬼怒川温泉大原209-1',
+        hpLink: 'https://www.tobuws.co.jp/'
     },
     {
         id: '5010', name: '江戸ワンダーランド 日光江戸村', area: 'other', genre: 'activity', budget: 'high', weather: 'sunny',
@@ -90,7 +99,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/edomura',
         imageUrl: 'https://images.unsplash.com/photo-1570459027562-4a916cc6113f?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family'],
-        address: '栃木県日光市柄倉470-2'
+        address: '栃木県日光市柄倉470-2',
+        hpLink: 'https://edowonderland.net/'
     },
     {
         id: '5011', name: '那須どうぶつ王国', area: 'other', genre: 'nature', budget: 'mid', weather: 'sunny',
@@ -98,7 +108,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/nasu',
         imageUrl: 'https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'relax'],
-        address: '栃木県那須郡那須町大島1042-1'
+        address: '栃木県那須郡那須町大島1042-1',
+        hpLink: 'https://www.nasu-oukoku.com/'
     },
     {
         id: '5012', name: '華厳の滝', area: 'other', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -116,7 +127,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/oya',
         imageUrl: 'https://images.unsplash.com/photo-1605335198032-4d6423377754?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'cultural'],
-        address: '栃木県宇都宮市大谷町909'
+        address: '栃木県宇都宮市大谷町909',
+        hpLink: 'http://www.oya909.co.jp/'
     },
     // --- New Spots (Gunma) ---
     {
@@ -125,7 +137,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/kusatsu',
         imageUrl: 'https://images.unsplash.com/photo-1570535973950-68142d765581?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'romantic'],
-        address: '群馬県吾妻郡草津町草津'
+        address: '群馬県吾妻郡草津町草津',
+        hpLink: 'https://www.kusatsu-onsen.ne.jp/'
     },
     {
         id: '5015', name: '富岡製糸場', area: 'other', genre: 'cultural', budget: 'low', weather: 'rainy_ok',
@@ -133,7 +146,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/tomioka',
         imageUrl: 'https://images.unsplash.com/photo-1582650630737-18451f496739?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural'],
-        address: '群馬県富岡市富岡1-1'
+        address: '群馬県富岡市富岡1-1',
+        hpLink: 'https://www.tomioka-silk.jp/'
     },
     {
         id: '5016', name: '伊香保温泉 石段街', area: 'other', genre: 'onsen', budget: 'free', weather: 'sunny',
@@ -141,7 +155,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/ikaho',
         imageUrl: 'https://images.unsplash.com/photo-1572973801201-97b47b85d9af?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'relax'],
-        address: '群馬県渋川市伊香保町伊香保'
+        address: '群馬県渋川市伊香保町伊香保',
+        hpLink: 'https://www.ikaho-kankou.com/'
     },
     {
         id: '5017', name: '群馬サファリパーク', area: 'other', genre: 'activity', budget: 'mid', weather: 'rainy_ok',
@@ -149,7 +164,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/gunmasafari',
         imageUrl: 'https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'family'],
-        address: '群馬県富岡市岡本1'
+        address: '群馬県富岡市岡本1',
+        hpLink: 'https://www.safari.co.jp/'
     },
     {
         id: '5018', name: '四万温泉（積善館）', area: 'other', genre: 'onsen', budget: 'mid', weather: 'rainy_ok',
@@ -157,7 +173,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/shima',
         imageUrl: 'https://images.unsplash.com/photo-1563821731-0df86c770c0c?auto=format&fit=crop&q=80&w=800',
         vibes: ['romantic', 'cultural'],
-        address: '群馬県吾妻郡中之条町四万4236'
+        address: '群馬県吾妻郡中之条町四万4236',
+        hpLink: 'https://www.sekizenkan.co.jp/'
     },
     // --- New Spots (Yamanashi/Shizuoka - accessible weekend trips) ---
     {
@@ -166,7 +183,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/fujiq',
         imageUrl: 'https://images.unsplash.com/photo-1579969248238-a1e4a6825c7e?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'],
-        address: '山梨県富士吉田市新西原5-6-1'
+        address: '山梨県富士吉田市新西原5-6-1',
+        hpLink: 'https://www.fujiq.jp/'
     },
     {
         id: '6002', name: '河口湖（大石公園）', area: 'other', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -182,7 +200,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/hottarakashi',
         imageUrl: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800',
         vibes: ['relax', 'exciting'],
-        address: '山梨県山梨市矢坪1669-18'
+        address: '山梨県山梨市矢坪1669-18',
+        hpLink: 'http://www.hottarakashi-onsen.com/'
     },
     {
         id: '6004', name: '忍野八海', area: 'other', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -206,7 +225,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/gotemba',
         imageUrl: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting'], // shopping -> exciting
-        address: '静岡県御殿場市深沢1312'
+        address: '静岡県御殿場市深沢1312',
+        hpLink: 'https://www.premiumoutlets.co.jp/gotemba/'
     },
     {
         id: '6007', name: '熱海サンビーチ', area: 'other', genre: 'nature', budget: 'free', weather: 'sunny',
@@ -222,7 +242,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/moa',
         imageUrl: 'https://images.unsplash.com/photo-1544967082-d9d25d8675b8?auto=format&fit=crop&q=80&w=800',
         vibes: ['cultural', 'romantic'],
-        address: '静岡県熱海市桃山町26-2'
+        address: '静岡県熱海市桃山町26-2',
+        hpLink: 'https://www.moaart.or.jp/'
     },
     {
         id: '6009', name: '伊豆シャボテン動物公園', area: 'other', genre: 'activity', budget: 'mid', weather: 'sunny',
@@ -230,7 +251,8 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/shaboten',
         imageUrl: 'https://images.unsplash.com/photo-1506665531195-3566afe2b458?auto=format&fit=crop&q=80&w=800',
         vibes: ['family', 'relax'],
-        address: '静岡県伊東市富戸1317-13'
+        address: '静岡県伊東市富戸1317-13',
+        hpLink: 'https://izushaboten.com/'
     },
     {
         id: '6010', name: '三島スカイウォーク', area: 'other', genre: 'nature', budget: 'mid', weather: 'sunny',
@@ -238,6 +260,7 @@ export const otherSpots: Spot[] = [
         locationLink: 'https://goo.gl/maps/mishima',
         imageUrl: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2e?auto=format&fit=crop&q=80&w=800',
         vibes: ['exciting', 'romantic'],
-        address: '静岡県三島市笹原新田313'
+        address: '静岡県三島市笹原新田313',
+        hpLink: 'https://mishima-skywalk.jp/'
     }
 ];
