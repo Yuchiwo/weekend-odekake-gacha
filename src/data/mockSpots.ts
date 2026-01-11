@@ -447,7 +447,7 @@ export const mockSpots: Spot[] = [
         description: '大人の街恵比寿のランドマーク。東京都写真美術館やヱビスビール記念館も隣接。',
         locationLink: 'https://goo.gl/maps/ebisu',
         imageUrl: 'https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?auto=format&fit=crop&q=80&w=800',
-        vibes: ['romantic', 'shopping'],
+        vibes: ['romantic'],
         address: '東京都渋谷区恵比寿4-20'
     },
     {
@@ -471,7 +471,7 @@ export const mockSpots: Spot[] = [
         description: '石畳の路地が残る粋な街。和カフェやフレンチの名店が多い。',
         locationLink: 'https://goo.gl/maps/kagurazaka',
         imageUrl: 'https://images.unsplash.com/photo-1542095360-1b2c4e207d57?auto=format&fit=crop&q=80&w=800',
-        vibes: ['gourmet', 'cultural'],
+        vibes: ['cultural'],
         address: '東京都新宿区神楽坂'
     },
     {
@@ -567,7 +567,7 @@ export const mockSpots: Spot[] = [
         description: '横浜のディープな飲み屋街。焼鳥、ホルモン、個性的なバーがひしめく。',
         locationLink: 'https://goo.gl/maps/noge',
         imageUrl: 'https://images.unsplash.com/photo-1569650125816-e5704d9c4de4?auto=format&fit=crop&q=80&w=800',
-        vibes: ['exciting', 'gourmet'],
+        vibes: ['exciting'],
         address: '神奈川県横浜市中区野毛町'
     },
     {
@@ -591,7 +591,7 @@ export const mockSpots: Spot[] = [
         description: '昭和レトロな街並みの中で、全国の有名ラーメンを食べ比べできる。',
         locationLink: 'https://goo.gl/maps/raumen',
         imageUrl: 'https://images.unsplash.com/photo-1560233066-6f81c9ce13fa?auto=format&fit=crop&q=80&w=800',
-        vibes: ['exciting', 'gourmet'],
+        vibes: ['exciting'],
         address: '神奈川県横浜市港北区新横浜2-14-21'
     },
     {
