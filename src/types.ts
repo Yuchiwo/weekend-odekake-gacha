@@ -15,7 +15,8 @@ export interface Spot {
     imageUrl?: string;
     locationLink: string; // Google Maps URL
     priority?: number;
-    vibes?: Mood[]; // New field
+    vibes?: Mood[];
+    address?: string; // New field for display
 }
 
 export interface FilterState {

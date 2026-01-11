@@ -45,6 +45,7 @@ export const Result = ({ spot, onReroll, onHome }: ResultProps) => {
 
                 <div className={styles.content}>
                     <h2 className={styles.spotName}>{spot.name}</h2>
+                    {spot.address && <p style={{ fontSize: '0.9rem', color: '#666', margin: '0 0 1rem 0' }}>📍 {spot.address}</p>}
                     <p className={styles.description}>{spot.description}</p>
 
                     <div className={styles.infoRow}>
