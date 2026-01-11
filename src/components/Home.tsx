@@ -106,13 +106,18 @@ export const Home = ({ onGacha }: HomeProps) => {
                 <div className={styles.filterGroup}>
                     <label>エリア</label>
                     <div className={styles.chips}>
-                        {(['23ku', 'tama', 'yokohama', 'chiba_saitama', 'other'] as Area[]).map(area => (
+                        {(['23ku', 'tama', 'yokohama', 'chiba', 'saitama', 'other'] as Area[]).map(area => (
                             <button
                                 key={area}
                                 className={`${styles.chip} ${filter.areas.includes(area) ? styles.active : ''}`}
                                 onClick={() => toggleFilter('areas', area)}
                             >
-                                {area === '23ku' ? '23区' : area === 'tama' ? '多摩' : area === 'yokohama' ? '横浜' : area === 'chiba_saitama' ? '千葉埼玉' : 'その他'}
+                                {area === '23ku' ? '23区' :
+                                    area === 'tama' ? '多摩' :
+                                        area === 'yokohama' ? '横浜' :
+                                            area === 'chiba' ? '千葉' :
+                                                area === 'saitama' ? '埼玉' :
+                                                    'その他'}
                             </button>
                         ))}
                     </div>

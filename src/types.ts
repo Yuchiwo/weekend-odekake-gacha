@@ -1,8 +1,8 @@
-export type Area = '23ku' | 'tama' | 'yokohama' | 'chiba_saitama' | 'other';
-export type Genre = 'nature' | 'art' | 'gourmet' | 'onsen' | 'shopping' | 'activity' | 'relax';
+export type Area = '23ku' | 'tama' | 'yokohama' | 'chiba' | 'saitama' | 'other';
+export type Genre = 'nature' | 'art' | 'gourmet' | 'onsen' | 'shopping' | 'activity' | 'relax' | 'cultural';
 export type Budget = 'free' | 'low' | 'mid' | 'high'; // 0, <2000, <5000, >5000
 export type Weather = 'sunny' | 'rainy_ok';
-export type Mood = 'relax' | 'exciting' | 'romantic' | 'cultural';
+export type Mood = 'relax' | 'exciting' | 'romantic' | 'cultural' | 'family';
 
 export interface Spot {
     id: string;
