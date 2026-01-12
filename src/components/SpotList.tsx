@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import styles from './SpotList.module.css';
 import { Spot, Area, Genre, Budget, Weather } from '../types';
 import { StorageService } from '../services/StorageService';
+import { SpotDetailCard } from './SpotDetailCard';
+
 
 interface SpotListProps {
     onBack: () => void;
@@ -11,6 +13,8 @@ export const SpotList = ({ onBack }: SpotListProps) => {
     const [spots, setSpots] = useState<Spot[]>([]);
     const [activeTab, setActiveTab] = useState<'all' | 'custom' | 'favorites'>('favorites');
     const [showAddForm, setShowAddForm] = useState(false);
+    const [selectedSpot, setSelectedSpot] = useState<Spot | null>(null);
+
 
     // ... (New Spot Form State omitted for brevity, logic remains same)
     // New Spot Form State
@@ -58,8 +62,12 @@ export const SpotList = ({ onBack }: SpotListProps) => {
         loadSpots();
     };
 
-    const handleDelete = (id: string, isCustom: boolean) => {
+
+
+    const handleDelete = (e: React.MouseEvent, id: string, isCustom: boolean) => {
+        e.stopPropagation();
         if (activeTab === 'favorites') {
+
             StorageService.toggleFavorite(id); // Remove from favs
             loadSpots();
         } else if (isCustom) {
@@ -154,22 +162,32 @@ export const SpotList = ({ onBack }: SpotListProps) => {
 
             <div className={styles.list}>
                 {spots.map(spot => (
-                    <div key={spot.id} className={styles.listItem}>
+                    <div key={spot.id} className={styles.listItem} onClick={() => setSelectedSpot(spot)}>
                         <div className={styles.itemInfo}>
                             <span className={styles.itemName}>{spot.name}</span>
                             <span className={styles.itemMeta}>{spot.area} / {spot.genre}</span>
                         </div>
 
                         {activeTab === 'favorites' ? (
-                            <button onClick={() => handleDelete(spot.id, false)} className={styles.deleteBtn} style={{ background: '#ffe4e6', color: '#e11d48' }}>
+                            <button onClick={(e) => handleDelete(e, spot.id, false)} className={styles.deleteBtn} style={{ background: '#ffe4e6', color: '#e11d48' }}>
                                 ♥-
                             </button>
                         ) : spot.id.startsWith('custom-') ? (
-                            <button onClick={() => handleDelete(spot.id, true)} className={styles.deleteBtn}>×</button>
+                            <button onClick={(e) => handleDelete(e, spot.id, true)} className={styles.deleteBtn}>×</button>
                         ) : null}
                     </div>
                 ))}
             </div>
+
+            {selectedSpot && (
+                <div className={styles.modalOverlay} onClick={() => setSelectedSpot(null)}>
+                    <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
+                        <button className={styles.closeButton} onClick={() => setSelectedSpot(null)}>×</button>
+                        <SpotDetailCard spot={selectedSpot} />
+                    </div>
+                </div>
+            )}
         </div>
+
     );
 };

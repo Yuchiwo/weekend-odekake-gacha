@@ -1,0 +1,72 @@
+.spotCard {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+}
+
+.imageArea {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.badges {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.badge {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    backdrop-filter: blur(4px);
+}
+
+.content {
+    padding: 24px;
+}
+
+.spotName {
+    font-size: 2rem;
+    margin: 0 0 12px 0;
+    color: var(--text-dark);
+}
+
+.description {
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.infoRow {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.mapLink {
+    display: block;
+    text-align: center;
+    background: #f3f4f6;
+    padding: 12px;
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: background 0.2s;
+}
+
+.mapLink:hover {
+    background: #e5e7eb;
+}
